@@ -1,4 +1,4 @@
-
+#SIMULACIÓN DE UN GAS IDEAL CON PYTHON
 Obejtivos principales: En este proyecto se busca, haciendo uso del lenguaje de programación Python y sus herramientas, realizar la simulación de un gas ideal confinado en una caja. De manera detallada el objetivo es verificar la ley de los gases ideales (PV=NRT) y verificar que la variable aleatoria definida como la raíz de la suma de los cuadrados de la velocidad de cada partícula del gas, se acopla a la función de distribución de Maxwell Boltzman.
 
 Implementación: Como se dijo anteriormente el proyecto usará como lenguaje único Python y se implementarán recursos propios de este lenguaje como lo son librerías científicas del tipo de numpy o scipy. También se baraja la posibilidad de usar librerías gráficas como lo son Visual Python o Matplotlib, las cuales son de mucha utilidad en proyectos como este.
