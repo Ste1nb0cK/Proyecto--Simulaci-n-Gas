@@ -25,3 +25,10 @@ Definimos el tamaño de dt, que deseamos, si luego queremos saber cuál es su nu
 p1.posicion=(0.03,0.04)
 
 En el archivo hay un ejemplo más complicado que demuestra la funcionalidad del método.
+
+# Método ver_colision_esquina
+Es necesario revisar si las partículas han chocado con algo a medida que avanza el tiempo. Existen 3 posibles colisiones: muros, esquinas y otras partículas. Este método requiere de las dimensiones Lx (longitud) y Ly (alto) de la caja, retorna True si detecta un choque con la esquina y False en caso contrario. Siguiendo con nuestro ejemplo:
+
+p1.ver_colision_esquina(0.03,0.04)
+
+nos devolvería un True si lo corrieramos después de hacer p1.paso_dt(0.01) como se hizo en la sección anterior. Lx es el primer argumento y Ly el segundo.
