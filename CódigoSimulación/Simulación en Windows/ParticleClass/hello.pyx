@@ -99,3 +99,5 @@ class Particula:#En esta clase definimos los métodos fundamentales que debe seg
     def resolver_colision_esquina(self):
         """Método que actualiza la velocidad después de que una partícula choca con una esquina"""
         self.velocidad = -1* self.velocidad #se invierte todo el vector
+            
+        

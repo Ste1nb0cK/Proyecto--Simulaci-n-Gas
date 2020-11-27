@@ -1,9 +1,8 @@
-
 from setuptools import setup
 from Cython.Build import cythonize
 
 setup(
-    name='Hello world app',
-    ext_modules=cythonize("hello.pyx"),
+    name='FuncionGeneradora',
+    ext_modules=cythonize("FuncionGeneradora.pyx"),
     zip_safe=False,
 )
